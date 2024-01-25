@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    border: 3px solid rgb(4, 134, 4);
+    justify-content: center;        /* İçeriği yatayda ortalamak için */
+    align-items: center;        /* İçeriği dikeyde ortalamak için */
+    height: 100vh;      /* Ekran yüksekliği kadar bir alan kaplaması için */
+    margin: 0;      /* Sayfanın kenar boşluklarını sıfırlamak için */
+    list-style-position: inside;
+}
+
+.urunler-page {
+    border: 3px solid rgb(223, 12, 82);
+}
+
+section img {
+    
+    width: 400px;
+    border: 3px solid rgb(223, 12, 82);
+}
+
+
+.baslık{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 3px solid rgb(5, 129, 201);
+}
+
+.navlist{
+    display: flex;      /* Elemanları yan yana hizalamak için */
+    list-style: none;       /* Madde işaretlerini kaldırmak için */
+    padding: 0;     /* Liste içindeki boşluğu sıfırlamak için */
+    justify-content: center;        /* Elemanları yatayda ortalamak için */
+    border: 3px solid rgb(145, 38, 187);
+
+}
+
+.navlist li{
+    margin-right: 10px;     /* Elemanlar arasında sağ boşluk eklemek için (istenirse ayarlanabilir) */
+    border: 3px solid rgb(0, 41, 65);
+}
+
